@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Desejos</title>
+
+</head>
+<body>
+    <h1>Minha Lista de Desejos 🛒</h1>
+
+    <label>Produto</label><br>
+    <input type="text" id="produto"><br><br>
+
+    <label>Preço (R$)</label><br>
+    <input type="number" id="preco" step="0.01"><br><br>
+
+    <label>Quantidade</label><br>
+    <input type="number" id="quantidade" min="1"><br><br>
+
+    <label>Marca</label><br>
+    <input type="text" id="marca"><br><br>
+
+    <label>Onde Comprar</label><br>
+    <input type="text" id="onde"><br><br>
+
+    <button id="btnSalvar" onclick="salvar()">Adicionar</button>
+
+    <hr>
+
+    <h2>Produtos Guardados</h2>
+
+    <table border="1" cellpadding="5">
+    <thead>
+    <tr>
+    <th>Produto</th>
+    <th>Preço</th>
+    <th>Quantidade</th>
+    <th>Total do Produto</th>
+    <th>Marca</th>
+    <th>Onde Comprar</th>
+    <th>Ações</th>
+    </tr>
+    </thead>
+
+    <tbody id="tabela">
+
+    </tbody>
+    </table>
+
+    <h2 id="total">
+        Total da compra: <strong>R$ 0,00</strong>
+    </h2>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

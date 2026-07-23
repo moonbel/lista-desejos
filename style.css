@@ -1,0 +1,32 @@
+button{
+    background-color: oklab(40.881% 0.01303 -0.12229);
+    color: hwb(0 100% 0%);
+    padding: 6px;
+    border: 1px, solid,lch(0% 0 0);
+    font-size: large;
+    font-weight:600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+button {
+    margin: 3px;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background:linear-gradient(135deg,#a1ffff,#0e004b);
+    color:rgb(255, 255, 255);
+    min-height:100vh;
+}
+
+input {
+    margin: 4px;
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
